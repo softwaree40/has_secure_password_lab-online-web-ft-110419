@@ -4,7 +4,7 @@ class UsersController < ApplicationController
       end
       
       def create 
-          raise.params.inspect 
+          
          @user = User.new 
          @user = User.find(params[:user][:name])
          @user = User.find(params[:user][:password])
